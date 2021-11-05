@@ -7,13 +7,13 @@ class Hrac:
 
     def __init__(self, profese, ziskanasila, ziskanemagy):
         self.profese = profese
-        if profese == "Hranicarka":
+        if profese == "Hranicar*ka":
             startsila = 5
             startmagy = 2
-        elif profese == "Zaklinacka":
+        elif profese == "Zaklinac*ka":
             startsila = 4
             startmagy = 4
-        elif profese == "Druid":
+        elif profese == "Druid*ka":
             startsila = 3
             startmagy = 6
         else:
