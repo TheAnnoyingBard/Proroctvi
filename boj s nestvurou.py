@@ -22,3 +22,21 @@ def bojsnestvurou (co, koho):
                         print(self.profese + " precenil*a sve sily. Budeme na tebe vzpominat.")
                         koho.zivy = False
                         break
+             else:
+                bylsoubojvuli = true
+                if (koho.vule + (hodkostkou())) > (co.vule + (hodkostkou())):
+                    co.zivoty = co.zivoty -1
+                    if co.zivoty == 0:
+                        print(f"{koho.profese} zabil*a nestvuru známou jako {co.jmeno} a ziskal*a {co.zkusenost} bodu zkusenoti.")
+                    else:
+                        print("Jeden zivot dole, jen tak dal!")
+                elif (koho.sila + (hodkostkou())) == (co.sila + (hodkostkou())):
+                    print("Je to remiza!")
+                    break
+                elif (koho.sila + (hodkostkou())) < (co.sila + (hodkostkou())):
+                    print("Nestvura vyhrala. " + koho.profese + "ztraci jeden zivot.")
+                    koho.ubranezivoty = koho.ubranezivoty +1
+                    if koho.zivoty == 0:
+                        print(self.profese + " precenil*a sve sily. Budeme na tebe vzpominat.")
+                        koho.zivy = False
+                        break
