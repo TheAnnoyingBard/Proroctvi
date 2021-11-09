@@ -40,3 +40,5 @@ def bojsnestvurou (co, koho):
                         print(self.profese + " precenil*a sve sily. Budeme na tebe vzpominat.")
                         koho.zivy = False
                         break
+                    else:
+                        break
