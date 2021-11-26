@@ -1,11 +1,17 @@
 
 class nestvura:
-    def __init__ (self, jmeno, druh, expy, sila, vule, zivoty=1):
+    def __init__ (self, jmeno, sila, vule, goldy, zivoty=1):
         self.jmeno = jmeno
-        self.druh = druh
-        self.zkusenost = expy
+        self.zlato = goldy
         self.sila = sila
         self.vule = vule
         self.zivoty = zivoty
         self.zivy = True
         
+        
+        
+        
+rojduchu = nestvura("roj duchů", 2, 0, 2, 3)
+horskyobr = nestvura("horský obr", 3, 5, 2)
+upir = nestvura("upir", 5, 8, 10)
+pirat = nestvura("pirát", 2, 0, 1)
