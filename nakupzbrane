@@ -1,0 +1,5 @@
+from zbran import * 
+import random
+
+zbran=["luk","kopí","klacek","kámen","nůž","kladivo","šavle","oštěp"]
+print(random.choice(zbran))
