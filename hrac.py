@@ -16,6 +16,12 @@ class Hrac:
         elif profese == "Druid*ka":
             startsila = 3
             startmagy = 6
+        elif profese == "Zoldak*cka":
+            startsila = 4
+            startmagy = 4
+        elif profese == "Mnich*Jeptiska":
+            startsila = 3
+            startmagy = 6
         else:
            
         self.ubranezivoty = 0
