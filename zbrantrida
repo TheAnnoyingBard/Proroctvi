@@ -1,0 +1,16 @@
+class zbran
+
+def __init__(self,jmeno,vule,sila,cena):
+    self.jmeno=jmeno
+    self.vule=vule
+    self.sila=sila
+    self.cena=cena
+
+luk=zbran("luk",1,3,3)
+kopi=zbran("kopí",
+klacek=zbran("klacek",
+kamen=zbran("kámen
+nuz=zbran
+kladivo=zbran
+savle=zbran
+ostep=zbran
