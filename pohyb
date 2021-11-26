@@ -1,0 +1,8 @@
+class pohyb
+    def def __init__(self,hrac):
+        self.hrac=hrac
+        self.pozice=0
+
+    def posun (self,1)
+        self.pozice=+1
+        
