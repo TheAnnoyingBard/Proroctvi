@@ -7,10 +7,10 @@ def __init__(self,jmeno,vule,sila,cena):
     self.cena=cena
 
 luk=zbran("luk",1,3,3)
-kopi=zbran("kopí",
+kopi=zbran("kopí",2,4,4)
 klacek=zbran("klacek",
-kamen=zbran("kámen
-nuz=zbran
-kladivo=zbran
-savle=zbran
-ostep=zbran
+kamen=zbran("kámen",
+nuz=zbran("nůž",
+kladivo=zbran("kladivo",
+savle=zbran("šavle",
+ostep=zbran("oštěp",
