@@ -3,6 +3,7 @@ class pohyb
         self.hrac=hrac
         self.pozice=0
 
-    def posun (self,1)
-        self.pozice=+1
+    def posun (self,pocet)
+        self.pozice=+pocet #ne o vic nez 1
+        
         
