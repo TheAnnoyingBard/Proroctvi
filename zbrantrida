@@ -8,9 +8,9 @@ def __init__(self,jmeno,vule,sila,cena):
 
 luk=zbran("luk",1,3,3)
 kopi=zbran("kopí",2,4,4)
-klacek=zbran("klacek",
-kamen=zbran("kámen",
-nuz=zbran("nůž",
-kladivo=zbran("kladivo",
-savle=zbran("šavle",
-ostep=zbran("oštěp",
+klacek=zbran("klacek",0,1,1)
+kamen=zbran("kámen",1,2,2)
+nuz=zbran("nůž",3,4,4)
+kladivo=zbran("kladivo",3,3,3)
+savle=zbran("šavle",3,5,6)
+ostep=zbran("oštěp",2,4,4)
