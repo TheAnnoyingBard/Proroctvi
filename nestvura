@@ -11,7 +11,7 @@ class nestvura:
         
         
         
-rojduchu = nestvura("roj duchů", 2, 0, 2, 3)
-horskyobr = nestvura("horský obr", 3, 5, 2)
-upir = nestvura("upir", 5, 8, 10)
-pirat = nestvura("pirát", 2, 0, 1)
+rojduchu = nestvura("Roj duchů", 2, 0, 2, 3)
+horskyobr = nestvura("Horský obr", 3, 5, 2)
+upir = nestvura("Upír", 5, 8, 10)
+pirat = nestvura("Pirát", 2, 0, 1)
