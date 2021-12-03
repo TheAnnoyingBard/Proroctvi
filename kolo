@@ -1,0 +1,47 @@
+from boj import *
+from obchod import *
+
+
+def nakupovani():
+    otazka=input("Chceš nakupovat?: ")
+     while otazka=="ano" or while otazka=="Ano" or while otazka=="jo" or while otazka=="Jo":
+     if hrac.ziskanemagy<5:
+      print("Máš málo magů, sorry, nic si nekoupíš.")
+     
+     
+     if hrac.penize < 900:
+      print("Jiz nemas penize, tak smele do areny!")
+      returnif hrac.penize < 900:
+      print("Jiz nemas penize, tak smele do areny!")
+      return
+      
+      
+      
+      
+      
+      
+       vstup = input(f"Mas {hrac.penize}, chces nakupovat? [a/n]")
+  while vstup.lower() != "n":
+   if hrac.penize < 900:
+      print("Jiz nemas penize, tak smele do areny!")
+      return
+   vstup = input("chces koupit Lucistnika - L (1000),"
+         "Sermire - S (900) ci Jezdce - J(7000)")
+   if vstup.upper() == "L":
+         if hrac.penize >= 1000:
+                     hrac.penize -= 1000
+                     hrac.poleGladiatoru.append(Luk())
+         else: print("Malo penez")
+   elif vstup.upper() == "S":
+         if hrac.penize >= 900:
+                     hrac.penize -= 900
+                     hrac.poleGladiatoru.append(MecAStit())
+         else: print("Malo penez")
+   elif vstup.upper() == "J":
+         if hrac.penize >= 7000:
+                     hrac.penize -= 7000
+                     hrac.poleGladiatoru.append(Jezdec())
+         else: print("Malo penez")
+   else: print("Spatny typ jednotky")                   
+   vstup = input(f"Mas {hrac.penize}, chces nakupovat? [a/n]")
+  return 
