@@ -1,9 +1,0 @@
-class pohyb
-    def def __init__(self,hrac):
-        self.hrac=hrac
-        self.pozice=0
-
-    def posun (self,pocet)
-        self.pozice=+pocet #ne o vic nez 1
-        
-        
